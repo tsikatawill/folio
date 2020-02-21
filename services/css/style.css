@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.showcase{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/josh-calabrese-Ca8r0PSWg9Q-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.wel p{
+    font-family: wkwkwk;
+    font-size: 2.5em;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    text-transform: -50%, -50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.head-img{
+    background-image:url(../images/macs/prog\ \(1\).jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.second-head{
+    background: url(../images/black-pencils-and-design-word-6444.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.graphic-section{
+    padding: 2em;
+    height: 10em;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    background-color: slategray;
+}
+
+.section {
+    padding: 2em;
+    height: 10em;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    background-color: darkslategray;
+}
+
+.button, .button-s{
+    display: inline;
+    border: 1px solid #fefefe;
+    border-radius: 100px;
+    padding: .4em;
+    font-size: .7em;
+    width: 30%;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+
+.button:hover{
+    color: teal;
+    background-color: khaki;
+    border: transparent;
+}
+
+.button-s:hover{
+    color: slategray;
+    background-color: whitesmoke;
+    border: none;
+    
+}
