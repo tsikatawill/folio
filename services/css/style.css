@@ -4,11 +4,29 @@ body{
 }
 
 .showcase{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/josh-calabrese-Ca8r0PSWg9Q-unsplash.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../mac.webp);
     height: 100vh;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+}
+
+
+.navbar{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 1.3em;
+    font-family: Angelina Demo;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    
 }
 
 .wel p{
@@ -25,37 +43,55 @@ body{
 }
 
 .head-img{
-    background-image:url(../images/macs/prog\ \(1\).jpg);
+    background-image:url(/services/prog.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 65vh;
     position: relative;
     background-attachment: fixed;
 }
 
+.web-design{
+    padding: 2em;
+    height: 8em;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    background-color: teal;
+}
+
 .second-head{
-    background: url(../images/black-pencils-and-design-word-6444.jpg);
-    height: 100vh;
+    background: url(/services/black-pencils-and-design-word-6444.jpg);
+    height: 65vh;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
 }
 .graphic-section{
     padding: 2em;
-    height: 10em;
+    height: 8em;
     font-size: 1.5em;
     text-align: center;
     color: #fff;
     background-color: slategray;
 }
 
-.section {
+.third-head{
+    background: url(/services/mobiledev.jpg);
+    height: 65vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.UI-section{
     padding: 2em;
-    height: 10em;
+    height: 8em;
     font-size: 1.5em;
     text-align: center;
     color: #fff;
-    background-color: darkslategray;
+    background-color: dimgrey;
 }
+
 
 .button, .button-s{
     display: inline;
@@ -67,6 +103,8 @@ body{
     cursor: pointer;
     justify-content: center;
     text-align: center;
+    margin: 20px;
+
 }
 
 .button:hover{
@@ -80,4 +118,12 @@ body{
     background-color: whitesmoke;
     border: none;
     
+}
+
+.last-show{
+    background: black;
+    height: 2em;
+    color: white;
+    padding: .3em;
+    text-align: center;
 }
